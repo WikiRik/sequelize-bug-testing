@@ -1,0 +1,27 @@
+{
+  "name": "sequelize-bug-testing",
+  "version": "1.0.0",
+  "description": "A repository where I can create a Codespace for and test sequelize bugs.",
+  "main": "index.js",
+  "dependencies": {
+    "sequelize": "^6.9.0",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14",
+    "sequelize-cli": "^6.3.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WikiRik/sequelize-bug-testing.git"
+  },
+  "author": "WikiRik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WikiRik/sequelize-bug-testing/issues"
+  },
+  "homepage": "https://github.com/WikiRik/sequelize-bug-testing#readme"
+}
